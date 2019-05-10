@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.files         = Dir['lib/**/*']
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'resque', '~> 1.0'
+  spec.add_dependency 'resque', '>= 1.0'
   spec.add_dependency 'wisper', '~> 2.0'
 
   spec.add_development_dependency 'bundler', '~> 1.12'
